@@ -100,28 +100,23 @@ nav ul li a:hover::after {
 }
 
 .home__social {
- 
+  align-items: flex-start;
   margin-left: 150px;
   gap: 30px;
   margin-top: 7rem;
   display: flex;
 }
 
-.home__social-icon {
-  width: max-content;
-  margin-bottom: 2rem;
+.home__social a i {
+  font-size: 25px;
+  color: rgb(18, 30, 64); 
+  transition: color 0.3s; 
 }
 
-.home__social-icon img {
-  width: 32px;
-  height: 32px;
-  fill: rgb(18, 30, 64);
-  transition: fill 0.3s;
+.home__social:hover a i {
+  color: rgb(62, 111, 244); 
 }
 
-.home__social-icon:hover img {
-  fill: #4070f4;
-}
 
 .home__img {
   width: 450px;
@@ -425,9 +420,6 @@ nav ul li a:hover::after {
   body {
     padding-top: 0;
   }
-
-  
- 
   
   .home-container {
     flex-direction: column;
@@ -453,15 +445,12 @@ nav ul li a:hover::after {
     text-align: center;
   }
 
-  .home__social {
-    
-    margin-top: 40px;
-  }
+ .home__social {
+   margin-top: 40px;
+  padding-left: 30px;
+ }
 
-  .home__social-icon {
-     
-    margin-bottom: 0;
-  }
+  
 
   .home__img {
     margin-right: 0;
