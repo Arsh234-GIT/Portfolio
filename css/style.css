@@ -446,9 +446,9 @@ nav ul li a:hover::after {
   }
 
  .home__social {
-  display: flex;
-  align-items: flex-start;
-   margin-top: 40px;
+  
+  padding: 25px;
+   margin-top: 70px;
   
  }
 
