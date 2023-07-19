@@ -447,10 +447,18 @@ nav ul li a:hover::after {
 
  .home__social {
    margin-top: 40px;
-  
+  padding-left: 30px;
  }
 
-  
+ .home__social a i {
+  font-size: 25px;
+  color: rgb(18, 30, 64); 
+  transition: color 0.3s; 
+}
+
+.home__social:hover a i {
+  color: rgb(62, 111, 244); 
+}
 
   .home__img {
     margin-right: 0;
