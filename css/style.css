@@ -446,8 +446,10 @@ nav ul li a:hover::after {
   }
 
  .home__social {
+  display: flex;
+  align-items: flex-start;
    margin-top: 40px;
-  padding-left: 30px;
+  
  }
 
  .home__social a i {
