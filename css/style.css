@@ -130,10 +130,11 @@ nav ul li a:hover::after {
 }
 
 .home__blob {
-  fill: grey
+  fill: rgb(62, 111, 244)
 }
 
 .home__blob-img {
+  
   width: 400px;
   height: 400px;
   object-fit: cover;
@@ -184,7 +185,7 @@ nav ul li a:hover::after {
 }
 
 .about__img img {
-  width: 330px;
+  width: 400px;
   border-radius: 0.5rem;
 }
 
@@ -456,6 +457,7 @@ nav ul li a:hover::after {
 
   .home__social {
     
+    align-items: center;
     
     margin-top: 40px;
   }
@@ -470,6 +472,9 @@ nav ul li a:hover::after {
   .home__img {
     margin-right: 0;
     margin-bottom: 0;
+  }
+  .home__blob-img{
+    padding: 10px 10px;
   }
 
   .section-title {
