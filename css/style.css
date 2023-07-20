@@ -100,7 +100,7 @@ nav ul li a:hover::after {
 }
 
 .home__social {
-  align-items: flex-start;
+  align-items: center;
   margin-left: 150px;
   gap: 30px;
   margin-top: 7rem;
@@ -302,7 +302,7 @@ nav ul li a:hover::after {
   column-gap: 50px;
   row-gap: 40px;
   padding-left: 150px;
-  padding-right: 190px;
+  padding-right: 150px;
   align-items: center;
 }
 
@@ -311,12 +311,13 @@ nav ul li a:hover::after {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .image-icon {
   max-width: 100%;
+  
   max-height: 100%;
-
   object-fit: cover; 
 }
 
@@ -447,7 +448,8 @@ nav ul li a:hover::after {
 
  .home__social {
   
-
+  padding-left: 25px;
+  
    margin-top: 70px;
   
  }
@@ -463,6 +465,7 @@ nav ul li a:hover::after {
 }
 
   .home__img {
+    width:  400px;
     margin-right: 0;
     margin-bottom: 0;
     padding: 15px 15px;
@@ -514,9 +517,8 @@ nav ul li a:hover::after {
 
   .work__container {
     
+   
     justify-content: center;
-
-    
     grid-template-columns: 1fr;
     gap: 30px;
   }
