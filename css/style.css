@@ -373,6 +373,7 @@ nav ul li a:hover::after {
   color: rgb(18, 30, 64);
   display: block;
   font-size: bold;
+ 
   
 }
 /* Responsive styles for small screens and mobile devices */
@@ -447,8 +448,10 @@ nav ul li a:hover::after {
   }
 
  .home__social {
+  display: flex;
+  flex-direction: row;
   
-  padding-left: 25px;
+  
   
    margin-top: 70px;
   
@@ -465,7 +468,7 @@ nav ul li a:hover::after {
 }
 
   .home__img {
-    width:  400px;
+    width:  350px;
     margin-right: 0;
     margin-bottom: 0;
     padding: 15px 15px;
@@ -537,6 +540,10 @@ nav ul li a:hover::after {
   display: flex;
   justify-content: center;
  } 
+  span .msg-id{
+  
+  display: none;
+ }
 
   
 }
