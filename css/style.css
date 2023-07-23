@@ -206,7 +206,7 @@ nav ul li a:hover::after {
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  gap: 25px;
+  
 
 }
 .movie-img{
@@ -219,13 +219,7 @@ nav ul li a:hover::after {
 
 
 
-.dev-img{
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
-  
 
-}
 b {
   color: rgb(41, 54, 95);
  
