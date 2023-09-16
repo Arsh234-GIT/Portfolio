@@ -160,7 +160,21 @@ nav ul li a:hover::after {
 .about-section {
     margin-top: 6.25rem;
     scroll-margin-top: 80px;
+    margin-bottom: 0px;
 }
+.center-wrapper {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+ 
+}
+
+.about-img {
+  height: 500px;
+  width: 500px;
+}
+
 
 .section-title {
   display: flex;
@@ -172,7 +186,7 @@ nav ul li a:hover::after {
 }
 
 .about__container {
-  margin: 120px 120px;
+  margin:0 120px ;
  display: flex;
  justify-content: center;
  text-align: center;
@@ -183,42 +197,6 @@ nav ul li a:hover::after {
 .text-container .about__text{
   text-align: left;
 }
-
-.football-div{
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  
- 
-  
-}
-
-  
-  
-
-.football-divimg{
-  width: 200px;
-  height: 150px;
-}
-.movie-div{
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  
-
-}
-.movie-img{
-  border-radius: 10px;
-  width: 200px;
-  height: 150px;
-  
-
-}
-
-
-
 
 b {
   color: rgb(41, 54, 95);
@@ -240,7 +218,7 @@ b {
   margin-bottom: 10px;
   font-size: 18px;
   line-height: 1.5;
-  margin-bottom: 20px;
+ 
   
 }
 
@@ -364,6 +342,8 @@ b {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 400px;
+  width: 350px;
   
 }
 
