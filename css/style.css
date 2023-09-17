@@ -483,9 +483,6 @@ b {
  .home__social {
   display: flex;
   flex-direction: row;
-  
-  
-  
    margin-top: 70px;
   
  }
@@ -519,7 +516,18 @@ b {
     text-align: center;
     gap: 4rem;
   }
-
+.center-wrapper{
+  width: 350px;
+  height: 350px;
+  margin-left: 25px;
+ 
+ 
+}
+.about-img {
+ 
+  height: 350px;
+  width: 350px;
+}
   
   .skills__container {
     padding: 15px 15px;
@@ -581,8 +589,6 @@ b {
   }
 
   .work__container {
-    
-   
     justify-content: center;
     grid-template-columns: 1fr;
     gap: 30px;
